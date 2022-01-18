@@ -19,7 +19,7 @@ function submit()
 
     for (var k = 0; k < lenghtOfNameOfStudentsArray; k++) 
     {
-        displayStudentArray.push("<h4>NAME - "+ nameOfTheStudentArray[k] + "</h4>");
+        displayStudentArray.push("<h4>NOME - "+ nameOfTheStudentArray[k] + "</h4>");
         console.log(displayStudentArray);
     }
 
@@ -48,7 +48,7 @@ function sorting()
 
     for (var k = 0; k < lenghtOfNameOfStudentsArray; k++) 
     {
-        displayStudentArraySorting.push("<h4>NAME - " + nameOfTheStudentArray[k] + "</h4>");
+        displayStudentArraySorting.push("<h4>NOME - " + nameOfTheStudentArray[k] + "</h4>");
         console.log(displayStudentArraySorting);
     }
 
